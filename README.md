@@ -1,4 +1,4 @@
 # Projet ARE
-**Maxim**
 
-code ajouté
+
+Notre projet sur .. divisé en 3 parties
