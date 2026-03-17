@@ -21,7 +21,7 @@ ancienetat = 1
 
 
 vecteurpopulation = np.random.normal(0.5, 0.15, population) 
-# vecteur contenant toutes les opinions de la population, aux extremes on a des gens qui investissent beaucoup ou peu les valeurs sont comprises entre 0 et 1
+#vecteur contenant toutes les opinions de la population, aux extremes on a des gens qui investissent beaucoup ou peu les valeurs sont comprises entre 0 et 1
 
 vecteurindice = np.array([np.random.uniform(-1/4, 3/4)*10 for _ in range(titres)])
 #vecteur contenant tous les indices de prix
