@@ -27,6 +27,7 @@ vecteurindice = np.array([np.random.uniform(-1/4, 3/4)*10 for _ in range(titres)
 #vecteur contenant tous les indices de prix
 
 def passage(matrice, etat):
+
     k = np.random.uniform()
     if k <matrice[etat][0]:
         etat =0
