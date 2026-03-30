@@ -10,7 +10,7 @@ autres idées de changements:
 -guerres
 -virus
 ...
-ces evenements impactent fortement le marché, ça pourrait etre intéressant de voir les effets de ces evenements
+ces evenements impactent fortement le marché, ça pourrait etre intéressant de voir leurs effets et conséquences
 
 2)Asymetrie d'information:
 certaines personnes connaissent en avance les probabilités de la matrice et peuvent donc prédire le comportement du marché, cette idée est plus dure donc on privilegiera les précedentes
