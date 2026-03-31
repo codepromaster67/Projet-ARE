@@ -14,3 +14,8 @@ ces evenements impactent fortement le marché, ça pourrait etre intéressant de
 
 2)Asymetrie d'information:
 certaines personnes connaissent en avance les probabilités de la matrice et peuvent donc prédire le comportement du marché, cette idée est plus dure donc on privilegiera les précedentes
+
+
+Bibliographie pour le cas 3 : Choc instantané (appelé Black Swan Theory)
+
+Wikipedia : https://en.wikipedia.org/wiki/Black_swan_theory
