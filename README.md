@@ -1,4 +1,30 @@
 # Projet ARE
+POUR MAXIM LE CODE DE CALCULINDICE:
+
+def calculer_indice(vecteurindice, vecteur_investisseurs, etat):
+    res = 0
+    for i in range(len(vecteurindice)):
+        res = 0
+        if etat == 0:
+            for inv in vecteur_investisseurs:
+                res = res - np.random.normal(0.002, 0.00001)
+            vecteurindice[i] += res
+    
+        if etat == 2:
+            for inv in vecteur_investisseurs:
+                res = res + np.random.normal(0.001, 0.00001)
+            vecteurindice[i] += res
+
+        if etat == 1:
+            for inv in vecteur_investisseurs:
+                res = res + np.random.normal(0, 0.00001)
+            vecteurindice[i] += res
+        
+        if vecteurindice[i] < 0.01:
+            vecteurindice[i] = 0.01
+
+    nv_indice = np.mean(vecteurindice) 
+    return nv_indice
 
 
 il faudra changer le vecteur indice, en fait c'est un vecteur prix et l'indice c'est la moyenne de ces prix
